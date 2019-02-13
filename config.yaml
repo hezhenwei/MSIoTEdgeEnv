@@ -23,7 +23,7 @@
 
 provisioning:
   source: "manual"
-  device_connection_string: "<ADD DEVICE CONNECTION STRING HERE>"
+  device_connection_string: "HostName=hzwhub.azure-devices.net;DeviceId=myEdgeDeviceCT1Linux1;SharedAccessKey=l1MH+8tf7GWn96lCLhspU8JG5CfcIM50LBaDCQzMuUA="
 
 # provisioning:
 #   source: "dps"
