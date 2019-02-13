@@ -30,3 +30,5 @@ sudo apt-get install -y moby-cli
 # Install the security daemon. The package is installed at /etc/iotedge/.
 sudo apt-get install -y iotedge
 
+
+sudo chmod 755 /etc/iotedge/config.yaml
