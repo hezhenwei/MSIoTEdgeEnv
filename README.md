@@ -27,3 +27,7 @@ To install Microsoft IoT Edge Environment and make certification more easy
 #### And, list running modules with:
 
     sudo iotedge list
+
+
+After everything is done, I suggest to
+change the file in /etc/iotedge/config.yaml to your own.
