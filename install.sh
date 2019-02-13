@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 
 # Reference
 # https://github.com/MicrosoftDocs/azure-docs/blob/master/articles/iot-edge/how-to-install-iot-edge-linux.md
