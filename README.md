@@ -3,7 +3,9 @@ To install Microsoft IoT Edge Environment and make certification more easy
 
 login to ROSEEK Ubuntu device and perform
 
-sudo wget
+wget https://github.com/hezhenwei/MSIoTEdgeEnv/raw/master/install.sh
+chmod 755 ./install.sh
+./install.sh
 
 
 You can check the status of the IoT Edge Daemon using:
