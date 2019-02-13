@@ -33,5 +33,5 @@ sudo apt-get install -y iotedge
 
 sudo rm /etc/iotedge/config.yaml
 wget https://github.com/hezhenwei/MSIoTEdgeEnv/raw/master/config.yaml
-mv ./config.yaml /etc/iotedge/config.yaml
+sudo mv ./config.yaml /etc/iotedge/config.yaml
 
