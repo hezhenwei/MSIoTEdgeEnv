@@ -20,13 +20,13 @@ sudo apt-get update
 
 
 # Install the Moby engine.
-sudo apt-get install moby-engine
+sudo apt-get install -y moby-engine
 
 # Install the Moby command-line interface (CLI). The CLI is useful for development but optional for production deployments.
-sudo apt-get install moby-cli
+sudo apt-get install -y moby-cli
 
 
 
 # Install the security daemon. The package is installed at /etc/iotedge/.
-sudo apt-get install iotedge
+sudo apt-get install -y iotedge
 
