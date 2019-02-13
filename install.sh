@@ -31,8 +31,12 @@ sudo apt-get install -y moby-cli
 sudo apt-get install -y iotedge
 
 
+# Replace config file with mine which contains my conn string..
 sudo rm /etc/iotedge/config.yaml
 wget https://github.com/hezhenwei/MSIoTEdgeEnv/raw/master/config.yaml
 sudo mv ./config.yaml /etc/iotedge/config.yaml
 sudo chown root:root /etc/iotedge/config.yaml
 sudo chmod 400 /etc/iotedge/config.yaml
+
+
+sudo systemctl restart iotedge
