@@ -31,4 +31,7 @@ sudo apt-get install -y moby-cli
 sudo apt-get install -y iotedge
 
 
-sudo chmod 755 /etc/iotedge/config.yaml
+sudo rm /etc/iotedge/config.yaml
+wget https://github.com/hezhenwei/MSIoTEdgeEnv/raw/master/config.yaml
+mv ./config.yaml /etc/iotedge/config.yaml
+
